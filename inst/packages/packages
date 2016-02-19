@@ -1,9 +1,10 @@
 Package,Type,DataDescription
-agridata,Data,"Agriculture"
+agridat,Data,"Agricultural datasets"
 alr3,Supplement,""
 alr4,Supplement,""
 aplore3,Supplement,""
 aprean3,Supplement,""
+asaur,Supplement,"Data sets are referred to in the text 'Applied Survival Analysis Using R' by Dirk F. Moore, to be published by Springer in 2016."
 BaM,Supplement,""
 BayesDA,Supplement,""
 blmeco,Supplement,""
