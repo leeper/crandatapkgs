@@ -4,8 +4,7 @@
 \alias{available_data}
 \title{available_data}
 \usage{
-available_data(fields = c("Package", "Version", "License", "Depends",
-  "Imports", "Suggests", "Enhances"), ...)
+available_data(fields = c("Package", "Version", "License"), ...)
 }
 \arguments{
 \item{fields}{A character vector of fields to extract from \code{\link[utils]{available.packages}}.}

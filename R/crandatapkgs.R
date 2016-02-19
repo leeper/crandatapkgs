@@ -17,7 +17,7 @@
 #' }
 #' @export
 available_data <- 
-function(fields = c("Package", "Version", "License", "Depends", "Imports", "Suggests", "Enhances"), ...) {
+function(fields = c("Package", "Version", "License"), ...) {
     x <- utils::available.packages(field = fields, ...)
     a <- as.data.frame(x, stringsAsFactors = FALSE)
     kf <- system.file("packages", "packages", package = "crandatapkgs")
