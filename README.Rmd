@@ -2,31 +2,6 @@
 
 This package provides a simple function that lists data-only packages (or those primarily offering built-in datasets) that are available on CRAN. It does this by subsetting the output of `avaialable.packages()` to return a data.frame of known data-heavy and data-only packages.
 
-## Installation ##
-
-The package will soon be available on [CRAN](http://cran.r-project.org/web/packages/crandatapkgs/) and can be installed directly in R using:
-
-```R
-install.packages("crandatapkgs")
-```
-
-The latest development version on GitHub can be installed using **devtools**:
-
-```R
-if(!require("devtools")){
-    install.packages("devtools")
-    library("devtools")
-}
-install_github("leeper/crandatapkgs")
-```
-
-[![CRAN Version](http://www.r-pkg.org/badges/version/crandatapkgs)](http://cran.r-project.org/package=crandatapkgs)
-![Downloads](http://cranlogs.r-pkg.org/badges/crandatapkgs)
-[![Travis-CI Build Status](https://travis-ci.org/leeper/crandatapkgs.png?branch=master)](https://travis-ci.org/leeper/crandatapkgs)
-[![codecov.io](http://codecov.io/github/leeper/crandatapkgs/coverage.svg?branch=master)](http://codecov.io/github/leeper/crandatapkgs?branch=master)
-
-## Examples ##
-
 To retrieve a data.frame listing of these known packages in R, simply do:
 
 ```{r}
@@ -37,8 +12,8 @@ a <- available_data()
 # data structure returned by `available_data()`
 str(a)
 
-# one package listing from the response
-a[1,]
+# a few packages from the response
+a[1:3,]
 ```
 
 ## Contributing Known Packages ##
@@ -50,4 +25,27 @@ PackageName,Type,"Data Description"
 ```
 
 where `Type` is either `Data` (for data-only packages) or `Supplement` (for packages that provide data supplements to other packages or texts). `Data Description` should be a double-quoted description of the kind of data found in the package.
+
+
+## Installation ##
+
+[![CRAN Version](http://www.r-pkg.org/badges/version/crandatapkgs)](http://cran.r-project.org/package=crandatapkgs)
+![Downloads](http://cranlogs.r-pkg.org/badges/crandatapkgs)
+[![Travis-CI Build Status](https://travis-ci.org/leeper/crandatapkgs.png?branch=master)](https://travis-ci.org/leeper/crandatapkgs)
+[![codecov.io](http://codecov.io/github/leeper/crandatapkgs/coverage.svg?branch=master)](http://codecov.io/github/leeper/crandatapkgs?branch=master)
+
+The package is available on [CRAN](http://cran.r-project.org/web/packages/crandatapkgs/) and can be installed directly in R using:
+
+```R
+install.packages("crandatapkgs")
+```
+
+The latest development version on GitHub can be installed using **ghit**:
+
+```R
+if(!require("ghit")){
+    install.packages("ghit")
+}
+ghit::install_github("leeper/crandatapkgs")
+```
 
