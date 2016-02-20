@@ -21,6 +21,6 @@ function(fields = c("Package", "Version", "License", "Depends", "Imports", "Sugg
     x <- utils::available.packages(field = fields, ...)
     a <- as.data.frame(x, stringsAsFactors = FALSE)
     kf <- system.file("packages", "packages", package = "crandatapkgs")
-    known <- read.csv(kf, stringsAsFactors = FALSE)
+    known <- utils::read.csv(kf, stringsAsFactors = FALSE)
     merge(a[, fields], known, all.x = FALSE, all.y = TRUE)
 }
