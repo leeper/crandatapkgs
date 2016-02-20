@@ -4,7 +4,7 @@
 \name{crandatapkgs-package}
 \alias{crandatapkgs}
 \alias{crandatapkgs-package}
-\title{Find Data-only Packages on CRAN}
+\title{Find Data-Only Packages on CRAN}
 \description{
 Find Data-only Packages on CRAN
 }

@@ -14,4 +14,4 @@ Suggests:
     testthat
 URL: http://github.com/leeper/crandatapkgs
 BugReports: https://github.com/leeper/crandatapkgs/issues
-RoxygenNote: 5.0.1.9000
+RoxygenNote: 5.0.1
