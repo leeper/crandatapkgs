@@ -48,12 +48,12 @@ where `Type` is either `Data` (for data-only packages) or `Supplement` (for pack
 
 ## Installation ##
 
-[![CRAN Version](http://www.r-pkg.org/badges/version/crandatapkgs)](http://cran.r-project.org/package=crandatapkgs)
+[![CRAN Version](http://www.r-pkg.org/badges/version/crandatapkgs)](https://cran.r-project.org/package=crandatapkgs)
 ![Downloads](http://cranlogs.r-pkg.org/badges/crandatapkgs)
 [![Travis-CI Build Status](https://travis-ci.org/leeper/crandatapkgs.png?branch=master)](https://travis-ci.org/leeper/crandatapkgs)
 [![codecov.io](http://codecov.io/github/leeper/crandatapkgs/coverage.svg?branch=master)](http://codecov.io/github/leeper/crandatapkgs?branch=master)
 
-The package is available on [CRAN](http://cran.r-project.org/web/packages/crandatapkgs/) and can be installed directly in R using:
+The package is available on [CRAN](https://cran.r-project.org/package=crandatapkgs) and can be installed directly in R using:
 
 ```R
 install.packages("crandatapkgs")
