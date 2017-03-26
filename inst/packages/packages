@@ -47,6 +47,7 @@ gunsales,Data,"Source data from the FBI's National Instant Criminal Background C
 HistData,Data,"Various historical datasests related to visualization"
 historydata,Data,"History"
 HSAUR3,Supplement,""
+hurricaneexposure,Data,"Allows users to create time series of tropical storm exposure histories for chosen counties for a number of hazard metrics (wind, rain, distance from the storm, etc.)"
 igraphdata,Supplement,""
 insuranceData,Data,"Insurance"
 IrishDirectorates,Data,"the boards' compositions of companies quoted in the Irish Stock Exchange at the end of each year from 2003 to 2013"
