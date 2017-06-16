@@ -2,8 +2,8 @@ Package: crandatapkgs
 Type: Package
 Title: Find Data-Only Packages on CRAN
 Authors@R: c(person("Thomas J.", "Leeper", email = "thosjleeper@gmail.com", role = c("aut", "cre")))
-Version: 0.1.6
-Date: 2016-12-07
+Version: 0.1.8
+Date: 2017-06-16
 Description: Provides a data frame listing of known data-only and data-heavy
     packages available on CRAN.
 License: GPL-3
