@@ -1,8 +1,10 @@
-# CRAN Data-only Packages #
+# CRAN Data-only Packages
+
+**This package is deprecated and will not be updated in the future. It has been archived on CRAN.**
 
 This package provides a simple function that lists data-only packages (or those primarily offering built-in datasets) that are available on CRAN. It does this by subsetting the output of `avaialable.packages()` to return a data.frame of known data-heavy and data-only packages.
 
-To retrieve a data.frame listing of these known packages in R, simply do:
+To retrieve a data frame listing of these known packages in R, simply do:
 
 ```{r}
 library("crandatapkgs")
